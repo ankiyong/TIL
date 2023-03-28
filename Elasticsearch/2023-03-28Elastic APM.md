@@ -15,7 +15,7 @@
 
 - ElaticAPM은 4가지 component가 있다.
 
-![](C:\Users\pop24\Desktop\source_code\Elasticsearch\image\apm1.png)
+![](.\image\apm1.png)
 
 1. APM agent
    - 성능과 오류 데이터를 런타임으로 모아 APM 서버(Elatsic APM integration)로 전달한다.
@@ -95,15 +95,15 @@ xpack.encryptedSavedObjects.encryptionKey: e9d06abc7408ca851b369bcf892ce15c
 
 ##### 1) add fleet server hosts
 
-![add_fleet_host](C:\Users\pop24\Desktop\source_code\Elasticsearch\image\add_fleet_host.png)
+![add_fleet_host](.\image\add_fleet_host.png)
 
 ###### a. add fleet server 클릭 후, Fleet server host 이름과 사용할 url을 작성한 후 Generate Fleet Server policy 클릭
 
-![add_fleet_host_2](C:\Users\pop24\Desktop\source_code\Elasticsearch\image\add_fleet_host_2.png)
+![add_fleet_host_2](.\image\add_fleet_host_2.png)
 
 ###### b. 원하는 운영체제를 선택 후 아래 설치 코드를 복사해 Fleet Server를 설치한다.
 
-![add_fleet_host_3](C:\Users\pop24\Desktop\source_code\Elasticsearch\image\add_fleet_host_3.png)
+![add_fleet_host_3](.\image\add_fleet_host_3.png)
 
 ###### c. Confirm connection에 설정 완료 메시지를 확인하면 끝
 
@@ -113,11 +113,11 @@ xpack.encryptedSavedObjects.encryptionKey: e9d06abc7408ca851b369bcf892ce15c
 
 ###### a. add fleet server를 클릭하여 fleet server를 생성
 
-![add_fleet_server](C:\Users\pop24\Desktop\source_code\Elasticsearch\image\add_fleet_server.png)
+![add_fleet_server](.\image\add_fleet_server.png)
 
 ###### b. 기본값으로 설정 후 save & continue 선택 / 아래는 생성 완료된 모습
 
-![add_fleet_server_fin](C:\Users\pop24\Desktop\source_code\Elasticsearch\image\add_fleet_server_fin.png)
+![add_fleet_server_fin](.\image\add_fleet_server_fin.png)
 
 
 
@@ -125,32 +125,32 @@ xpack.encryptedSavedObjects.encryptionKey: e9d06abc7408ca851b369bcf892ce15c
 
 ###### a. Integrations 페이지에서 APM을 선택한다.
 
-![integration_apm](C:\Users\pop24\Desktop\source_code\Elasticsearch\image\integration_apm.png)
+![integration_apm](.\image\integration_apm.png)
 
 ###### b. APM Integration을 선택 후 기본값으로 세팅하여 save & continue 선택한다.
 
-![apm_server1](C:\Users\pop24\Desktop\source_code\Elasticsearch\image\apm_server1.png)
+![apm_server1](.\image\apm_server1.png)
 
 ###### c.Add Agent를 선택한다.
 
-![apm_server2](C:\Users\pop24\Desktop\source_code\Elasticsearch\image\apm_server2.png)
+![apm_server2](.\image\apm_server2.png)
 
 ###### d. monitoring할 host에 agent를 설치한다.
 
-![apm_server3](C:\Users\pop24\Desktop\source_code\Elasticsearch\image\apm_server3.png)
+![apm_server3](.\image\apm_server3.png)
 
 ###### error
 
 Elastic Agent를 설치하다보면 아래와 같은 오류가 발생할 수 있다.
 
-![apm_install_error](C:\Users\pop24\Desktop\source_code\Elasticsearch\image\apm_install_error.png)
+![apm_install_error](.\image\apm_install_error.png)
 
 그럴땐 --insecure 옵션을 사용해서 설치하면 해결된다.
 
-![apm_install_solution](C:\Users\pop24\Desktop\source_code\Elasticsearch\image\apm_install_solution.png)
+![apm_install_solution](.\image\apm_install_solution.png)
 
 ##### 4. observability > overview 선택
 
 기본 설정이 완료된 화면이다.
 
-![setting_fin](C:\Users\pop24\Desktop\source_code\Elasticsearch\image\setting_fin.png)
+![setting_fin](.\image\setting_fin.png)
