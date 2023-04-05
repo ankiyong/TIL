@@ -95,7 +95,7 @@ xpack.encryptedSavedObjects.encryptionKey: e9d06abc7408ca851b369bcf892ce15c
 
 ##### 1) add fleet server hosts
 
-![add_fleet_host](.\image\add_fleet_host.png)
+![add_fleet_host](./image/add_fleet_host.png)
 
 ###### a. add fleet server 클릭 후, Fleet server host 이름과 사용할 url을 작성한 후 Generate Fleet Server policy 클릭
 
